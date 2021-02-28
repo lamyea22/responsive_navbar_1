@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--plugin-->
+
+    <!--font links-->
+
+    <!--CSS Links-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Responsive navbar 1</title>
+    <!--fontawesome links-->
+    <script src="https://kit.fontawesome.com/d856731319.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--header start-->
+    <header>
+        <div class="container" >
+            <nav>
+                <a href="index.html" class="logo">LOGO</a>
+                <div class="menu" id="show_menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">gallery</a></li>
+                        <li><a href="#">team</a></li>
+                        <li><a href="#">contact us</a></li>
+                        <li><a href="#" class="navbar_toggler" onclick="showMenu()"><i class="fas fa-bars"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--header end-->
+
+    <script src="js/script.js"></script>
+
+    <script>
+        function showMenu(){
+            var x=document.getElementById("show_menu");
+            if(x.className==="menu"){
+                x.className +=" show_menu";
+            }
+            else{
+                x.className="menu";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+/*font-family: 'Poppins', sans-serif;*/
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;  /*to control how all 
+	the element's width and height are calculated. this is needed to build a responsive grid view*/
+}
+body{
+	
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: grey;
+}
+header{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: salmon;
+}
+.logo{
+	float:left;
+	width: 15%;
+	font-size: 25px;
+	text-align:center;
+	background-color: pink;
+}
+a.logo{
+	text-decoration: none;
+}
+.menu{
+	float: right;
+	width: 60%;
+	background-color: green;
+	overflow:hidden;
+}
+.menu ul{
+	list-style-type:none;
+	overflow: hidden;
+	float: right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+    display: inline-block;
+    font-size: 25px;
+    color: white !important;
+    text-decoration: none;
+    margin-right: 65px; 
+    border-bottom: 4px solid transparent;
+    transition: .3s;
+}
+.menu ul li:nth-child(5) a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 4px solid black;
+}
+.navbar_toggler{
+	display: none !important;
+}

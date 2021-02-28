@@ -1,0 +1,81 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+.logo{
+	width: 30%;
+}
+/*header end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*header start*/
+	.menu ul li a{
+		margin-right: 40px;
+	}
+	/*header end*/
+
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
+
+@media only screen and (max-width: 768px) {
+/*header start*/
+/*.menu ul li:nth-child(5) a{
+	margin-right: 0;
+}*/
+.menu ul{
+	float: none;
+}
+.menu ul li:not(:first-child,:last-child){
+	display: none;
+}
+.menu ul li:first-child{
+	float:left;
+}
+.menu ul li:first-child a{
+	margin-right: 0;
+}
+.menu ul li:last-child{
+    float:right;
+}
+.navbar_toggler{
+	display: inline-block !important;
+	margin-right:0 !important;
+}
+.show_menu{
+	position:relative;
+}
+.show_menu .navbar_toggler{
+	position: absolute;
+	right:0;
+	top:0;
+}
+.show_menu ul{}
+.show_menu ul li{
+	float: none !important;
+	display:block !important;
+}
+.show_menu ul li a{
+	margin-right:0 !important;
+}
+/*header end*/
+
+}
